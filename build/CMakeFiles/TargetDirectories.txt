@@ -1,3 +1,4 @@
+/home/kirill/rpn_calculator/build/CMakeFiles/rpn_lib.dir
 /home/kirill/rpn_calculator/build/CMakeFiles/rpn_calculator.dir
 /home/kirill/rpn_calculator/build/CMakeFiles/test.dir
 /home/kirill/rpn_calculator/build/CMakeFiles/edit_cache.dir

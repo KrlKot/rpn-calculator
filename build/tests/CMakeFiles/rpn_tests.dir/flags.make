@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/kirill/rpn_calculator/include -isystem /home/kirill/rpn_calculator/build/_deps/googletest-src/googletest/include -isystem /home/kirill/rpn_calculator/build/_deps/googletest-src/googletest
 
-CXX_FLAGS = -g -std=gnu++20
+CXX_FLAGS = -std=c++20
 

@@ -6,6 +6,6 @@ GIT_TAG release-1.12.1
 )
 FetchContent_MakeAvailable(googletest)
 add_executable(rpn_tests test_rpn.cpp ../src/rpn.cpp)
-target_link_libraries(rpn_tests PRIVATE gtest_main)
+target_link_libraries(rpn_tests PRIVATE gtest_main rpn_lib)
 target_include_directories(rpn_tests PRIVATE ${CMAKE_SOURCE_DIR}/include)
 add_test(NAME rpn_tests COMMAND rpn_tests)

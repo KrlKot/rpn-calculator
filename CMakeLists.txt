@@ -4,10 +4,13 @@ project(RPN_Calculator VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
-include_directories(include)
+add_library(rpn_lib src/rpn.cpp)
+target_include_directories(rpn_lib PUBLIC include)
 
-add_executable(rpn_calculator src/main.cpp src/rpn.cpp)
+add_executable(rpn_calculator src/main.cpp)
+target_link_libraries(rpn_calculator PRIVATE rpn_lib)
 
 enable_testing()
 add_subdirectory(tests)

@@ -109,6 +109,7 @@ tests/rpn_tests: tests/CMakeFiles/rpn_tests.dir/test_rpn.cpp.o
 tests/rpn_tests: tests/CMakeFiles/rpn_tests.dir/__/src/rpn.cpp.o
 tests/rpn_tests: tests/CMakeFiles/rpn_tests.dir/build.make
 tests/rpn_tests: lib/libgtest_main.a
+tests/rpn_tests: librpn_lib.a
 tests/rpn_tests: lib/libgtest.a
 tests/rpn_tests: tests/CMakeFiles/rpn_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kirill/rpn_calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable rpn_tests"
