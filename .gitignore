@@ -1,0 +1,58 @@
+
+    4. # Basic exceptions
+    5. build/
+    6. *.user
+    7. *.suo
+    8. *.sdf
+    9. *.opensdf
+    10. *.sln
+    11. *.vcxproj*
+    12. *.vc.db
+    13. *.VC.db
+14.
+    15. # Specific to CMake
+    16. CMakeCache.txt
+    17. CMakeFiles/
+    18. CMakeScripts/
+    19. Makefile
+    20. cmake_install.cmake
+    21. install_manifest.txt
+    22. compile_commands.json
+    23. *.cmake
+    24. cmake-tools.vsix
+    25. toolchain.cmake
+26.
+    27. # Code coverage and profiling
+    28. *.gcno
+    29. *.gcda
+    30. *.gcov
+    31. *.profraw
+    32. *.profdata
+    33. coverage.info
+    34. coverage.txt
+    35. coverage_report/
+    36. lcov.info
+37.
+    38. # IDE $ editors
+    39. .vscode/
+    40. .idea/
+    41. *.code-workspace
+    42. *.swp
+    43. *~
+    44. *.orig
+45.
+    46. # Sustem files
+    47. .DS_Store
+    48. Thumbs.db
+49.
+    50. # Logs & temporary files
+    51. *.log
+    52. *.tmp
+53. *.temp 54.
+    55. # Artefacts
+    56. *.o
+    57. *.a
+    58. *.so
+    59. *.dylib
+    60. *.dll
+    61. *.exe
