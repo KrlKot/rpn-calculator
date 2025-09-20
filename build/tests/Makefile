@@ -185,30 +185,6 @@ rpn_tests/fast:
 	cd /home/kirill/rpn_calculator/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/rpn_tests.dir/build.make tests/CMakeFiles/rpn_tests.dir/build
 .PHONY : rpn_tests/fast
 
-__/src/rpn.o: __/src/rpn.cpp.o
-.PHONY : __/src/rpn.o
-
-# target to build an object file
-__/src/rpn.cpp.o:
-	cd /home/kirill/rpn_calculator/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/rpn_tests.dir/build.make tests/CMakeFiles/rpn_tests.dir/__/src/rpn.cpp.o
-.PHONY : __/src/rpn.cpp.o
-
-__/src/rpn.i: __/src/rpn.cpp.i
-.PHONY : __/src/rpn.i
-
-# target to preprocess a source file
-__/src/rpn.cpp.i:
-	cd /home/kirill/rpn_calculator/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/rpn_tests.dir/build.make tests/CMakeFiles/rpn_tests.dir/__/src/rpn.cpp.i
-.PHONY : __/src/rpn.cpp.i
-
-__/src/rpn.s: __/src/rpn.cpp.s
-.PHONY : __/src/rpn.s
-
-# target to generate assembly for a file
-__/src/rpn.cpp.s:
-	cd /home/kirill/rpn_calculator/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/rpn_tests.dir/build.make tests/CMakeFiles/rpn_tests.dir/__/src/rpn.cpp.s
-.PHONY : __/src/rpn.cpp.s
-
 test_rpn.o: test_rpn.cpp.o
 .PHONY : test_rpn.o
 
@@ -247,9 +223,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... rpn_tests"
-	@echo "... __/src/rpn.o"
-	@echo "... __/src/rpn.i"
-	@echo "... __/src/rpn.s"
 	@echo "... test_rpn.o"
 	@echo "... test_rpn.i"
 	@echo "... test_rpn.s"

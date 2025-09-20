@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kirill/rpn_calculator/src/rpn.cpp" "tests/CMakeFiles/rpn_tests.dir/__/src/rpn.cpp.o" "gcc" "tests/CMakeFiles/rpn_tests.dir/__/src/rpn.cpp.o.d"
   "/home/kirill/rpn_calculator/tests/test_rpn.cpp" "tests/CMakeFiles/rpn_tests.dir/test_rpn.cpp.o" "gcc" "tests/CMakeFiles/rpn_tests.dir/test_rpn.cpp.o.d"
   )
 
