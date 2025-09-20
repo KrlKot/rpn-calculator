@@ -6,6 +6,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Clean CMake cache
+        run: |
+          rm -rf build
+          mkdir build
       - name: Install dependencies
         run: |
           sudo apt-get update
