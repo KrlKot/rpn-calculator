@@ -73,15 +73,15 @@ CMakeFiles/rpn_calculator.dir/src/main.cpp.o: CMakeFiles/rpn_calculator.dir/flag
 CMakeFiles/rpn_calculator.dir/src/main.cpp.o: /home/kirill/rpn_calculator/src/main.cpp
 CMakeFiles/rpn_calculator.dir/src/main.cpp.o: CMakeFiles/rpn_calculator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kirill/rpn_calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rpn_calculator.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpn_calculator.dir/src/main.cpp.o -MF CMakeFiles/rpn_calculator.dir/src/main.cpp.o.d -o CMakeFiles/rpn_calculator.dir/src/main.cpp.o -c /home/kirill/rpn_calculator/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpn_calculator.dir/src/main.cpp.o -MF CMakeFiles/rpn_calculator.dir/src/main.cpp.o.d -o CMakeFiles/rpn_calculator.dir/src/main.cpp.o -c /home/kirill/rpn_calculator/src/main.cpp
 
 CMakeFiles/rpn_calculator.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rpn_calculator.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kirill/rpn_calculator/src/main.cpp > CMakeFiles/rpn_calculator.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kirill/rpn_calculator/src/main.cpp > CMakeFiles/rpn_calculator.dir/src/main.cpp.i
 
 CMakeFiles/rpn_calculator.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rpn_calculator.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kirill/rpn_calculator/src/main.cpp -o CMakeFiles/rpn_calculator.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kirill/rpn_calculator/src/main.cpp -o CMakeFiles/rpn_calculator.dir/src/main.cpp.s
 
 # Object files for target rpn_calculator
 rpn_calculator_OBJECTS = \

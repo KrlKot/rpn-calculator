@@ -1,6 +1,8 @@
 {
-    "files.associations": {
-        "stack": "cpp",
-        "stdexcept": "cpp"
+    "cmake.generator": "Unix Makefiles",
+    "cmake.configureSettings": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_C_COMPILER": "/usr/bin/clang",
+        "CMAKE_CXX_COMPILER": "/usr/bin/clang++"
     }
 }

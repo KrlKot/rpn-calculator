@@ -73,15 +73,15 @@ CMakeFiles/rpn_lib.dir/src/rpn.cpp.o: CMakeFiles/rpn_lib.dir/flags.make
 CMakeFiles/rpn_lib.dir/src/rpn.cpp.o: /home/kirill/rpn_calculator/src/rpn.cpp
 CMakeFiles/rpn_lib.dir/src/rpn.cpp.o: CMakeFiles/rpn_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kirill/rpn_calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rpn_lib.dir/src/rpn.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpn_lib.dir/src/rpn.cpp.o -MF CMakeFiles/rpn_lib.dir/src/rpn.cpp.o.d -o CMakeFiles/rpn_lib.dir/src/rpn.cpp.o -c /home/kirill/rpn_calculator/src/rpn.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpn_lib.dir/src/rpn.cpp.o -MF CMakeFiles/rpn_lib.dir/src/rpn.cpp.o.d -o CMakeFiles/rpn_lib.dir/src/rpn.cpp.o -c /home/kirill/rpn_calculator/src/rpn.cpp
 
 CMakeFiles/rpn_lib.dir/src/rpn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rpn_lib.dir/src/rpn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kirill/rpn_calculator/src/rpn.cpp > CMakeFiles/rpn_lib.dir/src/rpn.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kirill/rpn_calculator/src/rpn.cpp > CMakeFiles/rpn_lib.dir/src/rpn.cpp.i
 
 CMakeFiles/rpn_lib.dir/src/rpn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rpn_lib.dir/src/rpn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kirill/rpn_calculator/src/rpn.cpp -o CMakeFiles/rpn_lib.dir/src/rpn.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kirill/rpn_calculator/src/rpn.cpp -o CMakeFiles/rpn_lib.dir/src/rpn.cpp.s
 
 # Object files for target rpn_lib
 rpn_lib_OBJECTS = \
