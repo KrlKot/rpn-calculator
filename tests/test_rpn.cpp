@@ -15,3 +15,11 @@ TEST(RPNTest, DivisionByZero) {
 TEST(RPNTest, InvalidExpression) {
     EXPECT_THROW(evaluate_rpn("2 +"), std::invalid_argument);
 }
+TEST(RPNTest, SqrtFunction) {
+    EXPECT_DOUBLE_EQ(evaluate_rpn("9 sqrt"), 3.0);
+    EXPECT_DOUBLE_EQ(evaluate_rpn("2 sqrt"), std::sqrt(2));
+}
+TEST(RPNTest, SqrtInvalidInput) {
+    EXPECT_THROW(evaluate_rpn("sqrt"), std::invalid_argument);
+    EXPECT_THROW(evaluate_rpn("-1 sqrt"), std::invalid_argument);
+}
