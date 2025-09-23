@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g CMakeFiles/rpn_tests.dir/test_rpn.cpp.o -o rpn_tests  ../lib/libgtest_main.a ../librpn_lib.a ../lib/libgtest.a 
+/usr/bin/c++ CMakeFiles/rpn_tests.dir/test_rpn.cpp.o -o rpn_tests  ../lib/libgtest_main.a ../librpn_lib.a ../lib/libgtest.a 

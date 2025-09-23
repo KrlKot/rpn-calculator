@@ -73,15 +73,15 @@ tests/CMakeFiles/rpn_tests.dir/test_rpn.cpp.o: tests/CMakeFiles/rpn_tests.dir/fl
 tests/CMakeFiles/rpn_tests.dir/test_rpn.cpp.o: /home/kirill/rpn_calculator/tests/test_rpn.cpp
 tests/CMakeFiles/rpn_tests.dir/test_rpn.cpp.o: tests/CMakeFiles/rpn_tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kirill/rpn_calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/rpn_tests.dir/test_rpn.cpp.o"
-	cd /home/kirill/rpn_calculator/build/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/rpn_tests.dir/test_rpn.cpp.o -MF CMakeFiles/rpn_tests.dir/test_rpn.cpp.o.d -o CMakeFiles/rpn_tests.dir/test_rpn.cpp.o -c /home/kirill/rpn_calculator/tests/test_rpn.cpp
+	cd /home/kirill/rpn_calculator/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/rpn_tests.dir/test_rpn.cpp.o -MF CMakeFiles/rpn_tests.dir/test_rpn.cpp.o.d -o CMakeFiles/rpn_tests.dir/test_rpn.cpp.o -c /home/kirill/rpn_calculator/tests/test_rpn.cpp
 
 tests/CMakeFiles/rpn_tests.dir/test_rpn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rpn_tests.dir/test_rpn.cpp.i"
-	cd /home/kirill/rpn_calculator/build/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kirill/rpn_calculator/tests/test_rpn.cpp > CMakeFiles/rpn_tests.dir/test_rpn.cpp.i
+	cd /home/kirill/rpn_calculator/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kirill/rpn_calculator/tests/test_rpn.cpp > CMakeFiles/rpn_tests.dir/test_rpn.cpp.i
 
 tests/CMakeFiles/rpn_tests.dir/test_rpn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rpn_tests.dir/test_rpn.cpp.s"
-	cd /home/kirill/rpn_calculator/build/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kirill/rpn_calculator/tests/test_rpn.cpp -o CMakeFiles/rpn_tests.dir/test_rpn.cpp.s
+	cd /home/kirill/rpn_calculator/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kirill/rpn_calculator/tests/test_rpn.cpp -o CMakeFiles/rpn_tests.dir/test_rpn.cpp.s
 
 # Object files for target rpn_tests
 rpn_tests_OBJECTS = \

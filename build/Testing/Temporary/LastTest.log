@@ -1,10 +1,10 @@
-Start testing: Sep 22 14:14 MSK
+Start testing: Sep 23 21:47 MSK
 ----------------------------------------------------------
 1/1 Testing: rpn_tests
 1/1 Test: rpn_tests
 Command: "/home/kirill/rpn_calculator/build/tests/rpn_tests"
 Directory: /home/kirill/rpn_calculator/build/tests
-"rpn_tests" start time: Sep 22 14:14 MSK
+"rpn_tests" start time: Sep 23 21:47 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/kirill/rpn_calculator/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -32,8 +32,8 @@ Running main() from /home/kirill/rpn_calculator/build/_deps/googletest-src/googl
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"rpn_tests" end time: Sep 22 14:14 MSK
+"rpn_tests" end time: Sep 23 21:47 MSK
 "rpn_tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 22 14:14 MSK
+End testing: Sep 23 21:47 MSK
